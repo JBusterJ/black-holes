@@ -1,0 +1,62 @@
+body {
+    background-color: #2997db;
+    min-height: 100vh;
+}
+
+.vcarousel {
+    right: 0px;
+    top: 1px;
+    bottom: 1px;
+    overflow: hidden;
+    position: initial;
+    z-index: 9999;
+}
+.vcarousel .vcarousel__up,
+.vcarousel .vcarousel__down {
+    position: absolute;
+    top: 50%;
+    width: 34px;
+    height: 34px;
+    border-radius: 17px;
+    border: 4px solid #fff;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.vcarousel .vcarousel__up {
+    right: 0;
+}
+.vcarousel .vcarousel__down {
+    left: 0;
+}
+.vcarousel ul {
+    list-style-type: none;
+    padding: 75px 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    right: 50px;
+    bottom: 0;
+    overflow: hidden;
+    height: 200px;
+    z-index: 0;
+}
+.vcarousel ul li {
+    display: block;
+    left: 0;
+    right: 0;
+    height: 120px;
+    width: 140px;
+    top: 0;
+    background-color: #fff;
+    margin: -75px 0;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.75);
+    position: absolute;
+    text-align: center;
+}
+.vcarousel ul img {
+    width: 100%;
+    height: 100%;
+}
+
+

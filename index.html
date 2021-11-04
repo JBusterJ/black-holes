@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width    =device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sliders.css">
+    <title>Black Holes</title>
+</head>
+
+<body>
+    <h1 id="title">Black Holes</h1>
+    <h3>What are black holes?</h3>
+    <div class="sliding-animations" id="slider">
+        <div class="img-container">
+            <img src="cropped_m87_blackhole.png" id="blackholexray" alt="">
+            <img src="Black Hole.png" id="blackholevisible" alt="">
+        </div>
+        <p style="font-size: 10px; margin-left: 5px;">*Not visualising accretion disk <br> *More visible than in real
+            life</p>
+        <center>
+            <input type="range" min="-100" max="0" value="0" class="range blue" id="wavelength" oninput="handleWavelength(this.value)"/>
+        </center>
+    </div>
+
+
+    <video autoplay muted width="550" id="sagittariusa">
+        <source src="https://cdn.eso.org/videos/ultra_hd/eso1825e.mp4">
+    </video>
+    <p>Stars orbitting the black hole in the center of our galaxy (Sagittarius A*)</p>
+    <p>This is a timelapse of 20 years worth of data collected using the Very Large Telescope (VLT) by European Southern
+        Observatory (ESO)</p>
+    <a href="https://www.youtube.com/watch?v=TF8THY5spmo" target="blank">Original video</a>
+</body>
+<script></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+
+</html>

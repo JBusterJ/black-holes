@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+#virgoatransition {
+    color: white;
+}
+#virgoatransition img {
+    width: 400px;
+}
+#title {
+    color: white;
+}
+h3 {
+    color: white;
+}
+p {
+    color: white;
+}
+a {
+    color: rgb(82, 159, 221);
+    text-decoration: none;
+    font-weight: bolder;
+}
+section {
+    width: 500px;
+    margin-left: 100px;
+}
+#slider {
+    border: 1px solid white;
+    width: 800px;
+    height: 300px;
+    background-image: url("https://cdn.astrobin.com/thumbs/5VE37Tq_irsj_1824x0_n1wMX-gx.jpg");
+    background-size: 50%;
+}
+#slider center {
+    padding-top: 200px;
+}
+#slider #blackholevisible {
+    width: 25%;
+    margin-left: 16%;
+    margin-top: 50px;
+    position: absolute;
+}
+#slider #blackholexray {
+    width: 25%;
+    margin-left: 16%;
+    margin-top: 50px;
+    position: absolute;
+    opacity: 0;
+}
+.img-container .top {
+    top: 0;
+    left: 0;
+}
+.carouselContainer {
+    z-index: 10;
+}
